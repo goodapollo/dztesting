@@ -1,0 +1,9 @@
+<mvc:View controllerName="dzproject01.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f">
+    <App id="app">
+		<f:FlexibleColumnLayout id="layout"/>
+    </App>
+</mvc:View>

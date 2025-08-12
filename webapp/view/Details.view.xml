@@ -1,0 +1,15 @@
+<mvc:View controllerName="dzproject01.controller.Details" xmlns:c="sap.suite.ui.commons" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:vbm="sap.ui.vbm">
+    <Page id="details" showHeader="false">
+		<form:SimpleForm ariaLabelledBy="detailsTitle" backgroundDesign="Transparent" editable="true" id="TrackingForm" layout="ResponsiveGridLayout">
+			<form:toolbar>
+				<Toolbar design="Transparent" id="toolbar">
+					<Button icon="{ui>/sShowListIcon}" id="showList" press=".onShowList" tooltip="{ui>/sShowListTooltip}"/>
+					<Title id="detailsTitle" level="H2" text="Tracking History: HU# {handlingunit}"/>
+				</Toolbar>
+			</form:toolbar>
+		</form:SimpleForm>
+        <content>
+            
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,39 @@
+<mvc:View controllerName="dzproject01.controller.Master"
+	xmlns:c="sap.suite.ui.commons"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m"    
+	xmlns:l="sap.ui.layout">
+    <Page id="masterpage" title="{i18n>title}">
+        <content>
+            <Table growing="true" growingThreshold="5" id="HandlingUnits" mode="SingleSelectMaster" selectionChange=".onSelectionChange">
+                <columns>
+                    <Column id="handlingUnitColumn">
+                        <header>
+                            <Label text="Handling Unit" id="handlingUnitLabel"/>
+                        </header>
+                    </Column>
+                    <Column id="carrierColumn">
+                        <header>
+                            <Label text="Carrier" id="carrierLabel"/>
+                        </header>
+                    </Column>
+                    <Column id="serviceColumn">
+                        <header>
+                            <Label text="Service" id="serviceLabel"/>
+                        </header>
+                    </Column>
+                    <Column id="trackingNumberColumn">
+                        <header>
+                            <Label text="Tracking Number" id="trackingNumberLabel"/>
+                        </header>
+                    </Column>
+                    <Column id="shipDateColumn">
+                        <header>
+                            <Label text="Ship Date" id="shipDateLabel"/>
+                        </header>
+                    </Column>
+                </columns>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>
