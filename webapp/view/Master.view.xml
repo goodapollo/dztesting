@@ -28,8 +28,7 @@
                         </header>
                     </Column>
                     <Column id="shipDateColumn">
-                        <header>
-                            <Label text="Ship Date" id="shipDateLabel"/>
+                        <header><Label text="Ship Date" id="shipDateLabel"/>
                         </header>
                     </Column>
                 </columns>
